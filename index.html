@@ -1,17 +1,13 @@
-
-<!DOCTYPE html>
-<html lang="en" >
-
-<head>
+<html lang="en"><head>
 
   <meta charset="UTF-8">
   
-<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
 <meta name="apple-mobile-web-app-title" content="CodePen">
 
-<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
 
-<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
 
 
   <title>CodePen - A Pen by Kilian-Schwarz</title>
@@ -74,6 +70,7 @@ h1,h2{
   height: 180px;
   cursor:crosshair;
   overflow:hidden;
+  -webkit-transform: scale(1.3, 1.3);
 }
 
 .image:hover img{
@@ -127,18 +124,19 @@ h1,h2{
 
 </head>
 
-<body translate="no" >
-  <div class="card"> <div class="icon"><img src="https://i.ibb.co/L1yPCFx/mining1.png" id="favicon"></div><div class="header">
-  <div class="image"> <img src="https://pbs.twimg.com/media/C2bx8KGWQAEORsE.jpg" alt="" /> </div>
+<body translate="no">
+  <div class="card"> <div class="icon"><img src="data:image/png;base64,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" id="favicon"></div><div class="header">
+  <div class="image"> <img src="https://external-preview.redd.it/Num6tVeVAn_om2qIETgXKXgMrUdfu3fgvjsBlb3tXpI.jpg?width=960&amp;crop=smart&amp;auto=webp&amp;s=be1282053de93d65bcdb6cd2699b29cc8daeb9ac" alt=""> </div>
  
   <h2>MC 1.17</h2>
   </div>
-  <div id="rest">Loading ...</div>
+  <div id="rest"><br><b>Players Online:</b> 1<br>OP: bcbit</div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://cpwebassets.codepen.io/assets/common/stopExecutionOnTimeout-8216c69d01441f36c0ea791ae2d4469f0f8ff5326f00ae2d00e4bb7d20e24edb.js"></script>
 
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-      <script id="rendered-js" >
+  
+      <script id="rendered-js">
 //based on a pen by @robinselmer
 var url = "https://api.minetools.eu/ping/game.webschwarz.de/25565";
 
@@ -159,7 +157,8 @@ $.getJSON(url, function (r) {
 
   
 
-</body>
 
-</html>
+
+
  
+</body></html>
